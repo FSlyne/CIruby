@@ -1,0 +1,5 @@
+language: ruby
+ruby:
+  - "2.1.5"
+# command to install dependencies
+script: ruby unittest/rubyunit.rb
