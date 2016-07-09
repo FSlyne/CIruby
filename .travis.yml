@@ -2,7 +2,8 @@ language: ruby
 ruby:
   - "2.1.5"
 # command to install dependencies
-script: ruby unittest/blog_unittest.rb
+# script: ruby unittest/blog_unittest.rb
+scrtip ruby unittest/rubyunity.rb
 
 before_install:
   - gem install selenium-webdriver
