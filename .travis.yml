@@ -3,3 +3,6 @@ ruby:
   - "2.1.5"
 # command to install dependencies
 script: ruby unittest/blog_unittest.rb
+
+before_install:
+  - gem install selenium-webdriver
