@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'selenium-webdriver'
 require 'test/unit'
 
@@ -18,7 +17,6 @@ class SampleTest < Test::Unit::TestCase
     assert_match "Signed in",notice
 
     element = @driver.find_element(:tag_name , "body")
-    puts element.text
     element = @driver.find_element(:link_text, "Menu")
     element.click
     element = @driver.find_element(:tag_name, "body")
