@@ -27,3 +27,4 @@ class SampleTest < Test::Unit::TestCase
     @driver.quit
   end
 end
+
