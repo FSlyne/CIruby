@@ -1,4 +1,4 @@
-require 'selenium-webdriver'
+require 'selenium-webdriver' 
 require 'test/unit'
 
 class SampleTest < Test::Unit::TestCase
